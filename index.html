@@ -12,8 +12,13 @@
       background-color: skyblue;
     }
   </style>
+  <script>
+    function abc(){
+      document.getElementById("box").style["backgroundcolor"]="green"
+    }
+  </script>
 </head>
 <body>
-  <div class="box"></div>
+  <div class="box" id="box" onclick="abc()"></div>
 </body>
 </html>
