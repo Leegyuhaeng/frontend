@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.outline { height: auto; position: relative;}
+.roule_bk{ 
+    position: absolute;
+    width: 100%;
+}
+.roule_bk > img { width: 100%; object-fit: cover;}
+.gamepan { position: absolute;
+width: 80%; left:50%; margin-left: -40%;  bottom: 7.5%; }
+.gamepan > img { width: 100%; object-fit: cover; }
+.gamebtn { position: absolute; width: 40%; height: 40%;
+top:0; bottom: 0; left: 0; right: 0; margin: auto; z-index: 3;
+}
+.gamepin{position: absolute; width: 10%; height: 10%; z-index: 5; left: 0; right: 0; margin: auto;}
+.gameboard{transition: all 5s ease;}
+.msg { background-color: black; color:white; font-size: 12px;
+    width: 60%; height: 60px; position: absolute; z-index: 10;
+    border-radius: 10px; text-align: center; line-height: 60px;
+    left:0; right: 0; margin: auto; top: 200px; display: none; }
+.close{ width: 20px; height: 20px; background: #eee;  position: absolute; right: 0;  border-radius: 2px; cursor: pointer; text-align: center; line-height: 20px; color: black; }
+
+/* 0~60   500~5000사이
+60~120     꽝~5000사이
+120~180    3000~꽝사이
+180~240  2000~3000사이
+240~300  1000~2000사이
+300~360   500~5000사이
+*/

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.menu_css>span{width: inherit; height: 40px;  border-bottom: 1px solid #ededed;  box-sizing: border-box; line-height: 39px;}
+.menu_css>span:nth-of-type(2){height: 150px; }
+
+.menu0,.menu1,.menu2{width: 1220px; height: inherit; margin: 0 auto;  font-size: 12px; text-align: center; }
+
+/* 첫번째 메뉴 */
+.menu0>ul{float: left;}
+.menu0>ol{float: right;}
+
+.menu0>ul>li{float: left; width: 70px; color: #777777; cursor: pointer;}
+.menu0>ol>li{float: left; width: 70px; color: #777777; cursor: pointer;}
+.menu0>ul>li:after{
+    content: "|";
+    float: right;
+}
+.menu0>ul>li:last-child:after{
+    content: "";
+  
+}
+.menu0>ol>li:after{
+    content: "|";
+    float: right;
+}
+.menu0>ol>li:last-child:after{
+    content: "";
+  
+}
+/* 두번째 메뉴 */
+.menu1{position: relative;}
+.menu1>label{width: 342px; height: 65px;  background-image: url(../shop1/logo/logo2.png) ; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;}
+.menu1>span{width: 25px; height: 25px; position: absolute; top: 0; bottom: 0; margin: auto;  background-size:   contain;  background-repeat: no-repeat; background-position:center center;  cursor: pointer;}
+.menu1>span:nth-of-type(1){background-image: url(../shop1/menu/top_search.gif);  right: 105px;  }
+.menu1>span:nth-of-type(2){background-image: url(../shop1/menu/top_cart.gif); right: 50px;}
+
+
+/* 세번째 메뉴 */
+
+.menu2>ul{float: left; height: inherit;}
+.menu2>ol{float: right; height: inherit;}
+.menu2>ul>li{font-size: 15px; display: inline-block; height: auto; margin-left: 10px;  cursor: pointer; position: relative;}
+.menu2>ol>li{font-size: 15px; display: inline-block; height: auto; margin-right: 10px; cursor: pointer; position: relative;}
+.menu2>ul>li>ol{width: 120px; height: auto; border: 1px solid lightgray; box-sizing: border-box; position: absolute; display: none;z-index: 1000; background-color: gray ; }
+.menu2>ul>li>ol>li{width: inherit; height: 25px; line-height: 25px;  }
+.menu2>ul>li>ol>li:hover{background-color: #e9e9e9;}
+/* .menu2>ol>li>ul{width: 120px; height: auto; border: 1px solid black; position: absolute; z-index: 1000;  }
+.menu2>ol>li>ul>li{width: inherit; height: 25px; line-height: 25px;  } */

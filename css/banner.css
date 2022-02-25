@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+.banner_css{position: relative;}
+.olbox{width: 1220px; height: 45px;  position: absolute; bottom: 0; left: 0; right: 0; margin: auto;   z-index: 10001; }
+.olbox>li{width: 235px; height: 45px; position: relative; text-align: center; font-size: 13px;   z-index: 10002; float: left; border: 1px solid #f2f2f2; background-color: #ffffff; line-height: 43px; cursor: pointer; box-sizing: border-box; }
+.olbox>li:nth-of-type(1){border:1px solid #ffffff; background-color: #f2f2f2;}
+.banner_css>ol>li{float: left; }
+.banner_css>label{position: absolute; width: 1220px; height: inherit; display: none; left: 0; right: 0; margin:  auto;}
+.banner_css>label>span,.banner_css>label>div{width: inherit; left: 0; right: 0; margin:  auto; height: inherit; position: absolute; overflow: hidden;  }
+.banner_css>label>div>ul{position: relative;}
+.banner_css>label>div>ul>li{position: absolute; left: -50px; display: table-cell; vertical-align: middle;  opacity: 0;}
+.banner_css>label>div>ul>li:nth-of-type(1){top: 150px; font-size: 14px;  font-weight: 800;}
+.banner_css>label>div>ul>li:nth-of-type(2){top: 185px; font-size: 35px; }
+.banner_css>label>div>ul>li:nth-of-type(3){top: 305px; color: #666666; font-family: 'Nanum Gothic', sans-serif;}
+.banner_css>label>div>ul>li:nth-of-type(4){top: 360px; font-size: 11px; border: 1px solid black; cursor: pointer; width: 200px; height: 40px; text-indent: 5px; box-sizing: border-box; line-height: 38px; left: 60px; opacity: 1;  }
+.banner_css>label:nth-of-type(1),.banner_css>label:nth-of-type(1){display: block;}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.footer_css>label{width: inherit; height: auto;}
+.footer_css>label:nth-of-type(1){ border-top: 1px solid #000000;  box-sizing: border-box;}
+.footer_css>label:nth-of-type(2){ border-top: 1px solid #aaaaaa; border-bottom: 1px solid #aaaaaa;  box-sizing: border-box; }
+.footer_box{width: 1220px; height: 45px; margin: 0 auto;  }
+.footer_box>ul{float: left;}
+.footer_box>ul>li{float: left; text-align: center; line-height: 43px; font-size: 12px; color: #aaaaaa; margin-right: 5px;}
+.footer_box>ul>li:nth-of-type(odd){cursor: pointer;}
+.footer_box>ol{float: right; }
+.footer_box>ol>li{float: left; height: inherit;  width: 20px; height: 20px; cursor: pointer; margin-right: 7.5px; margin-left: 7.5px; margin-top: 11.5px;}
+.footer_box>ol>li:nth-of-type(1){background-image: url(../shop1/footer/ft_sns01.gif); }
+.footer_box>ol>li:nth-of-type(2){background-image: url(../shop1/footer/ft_sns02.gif);}
+.footer_box>ol>li:nth-of-type(3){background-image: url(../shop1/footer/ft_sns03.gif);}
+/* .ft_table{border: 1px solid black; width: inherit; height: 50px;} */
+.footer_text{width: 1220px; height: 265px; margin: 0 auto; box-sizing: border-box; padding: 30px; font-size: 12px; }
+.footer_text>ul{float: left; height: 150px; color: #aaaaaa; }
+.footer_text>ul:nth-of-type(1){width: 360px;  box-sizing: border-box; padding: 15px; border-right:1px  solid #aaaaaa; }
+
+.footer_text>ul:nth-of-type(1)>li:nth-of-type(1){color: black; font-size: 11px; }
+.footer_text>ul:nth-of-type(2)>li:nth-of-type(1){color: black; font-size: 11px; margin-bottom: 20px;}
+.footer_text>ul:nth-of-type(3)>li:nth-of-type(1){color: black; font-size: 11px; margin-bottom: 20px;}
+
+.footer_text>ul:nth-of-type(1)>li:nth-of-type(2){font-size: 25px; color: black;}
+.footer_text>ul:nth-of-type(1)>li:nth-of-type(6){margin-top: 70px;}
+
+
+.footer_text>ul:nth-of-type(2){width: 190px;  border-right: 1px solid #aaaaaa;  box-sizing: border-box; padding: 15px;}
+.footer_text>ul:nth-of-type(2)>li:nth-of-type(1){color: black;}
+.footer_text>ul:nth-of-type(3){width: 190px;    padding: 15px; border-right: 1px solid #aaaaaa; box-sizing: border-box; }
+.footer_text>ul:nth-of-type(3)>li:nth-of-type(2){cursor: pointer;}
+.footer_text>ul:nth-of-type(3)>li:nth-of-type(3){cursor: pointer;}
+.footer_text>ul:nth-of-type(3)>li:nth-of-type(4){cursor: pointer;}
+.footer_text>ul:nth-of-type(3)>li:nth-of-type(5){cursor: pointer;}
+
+.post{font-size: 12px; margin-left: 15px; color: #aaaaaa; margin-top: 30px;}
+
+.footer_end{width: 1220px; height: 220px; margin: 0 auto; font-size: 12px ; padding-top: 30px; box-sizing: border-box; color: #aaaaaa;}
+.footer_end>ul{float: left;}
+.footer_end>ul>li:nth-of-type(5){margin-top: 30px;}
+.footer_end>span{width: 226px; height: 86px;  background-image: url(../shop1/footer/ban_escrow.jpg);  float: right; cursor: pointer;}

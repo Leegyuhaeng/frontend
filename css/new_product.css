@@ -1,0 +1,16 @@
+.new_title{width: 1220px; height: 45px; margin: 0 auto; margin-bottom: 20px; }
+.new_title>label{text-align: center; width: inherit;}
+.new_title>label:nth-of-type(1){font-size: 14px; color: #888888;}
+.new_title>label:nth-of-type(2){font-size: 21px; color: #000000;}
+.new_menu{width: 1220px; margin: 0 auto;  }
+.new_menu>span{width: 390px ; height: 500px; float: left; margin-right: 25px; margin-bottom: 25px; position: relative; }
+.new_menu>span>div{width: 40px; height: 40px; position: absolute; right: 0; top: 0; color: white; background-color: black; line-height: 40px; text-align: center;}
+.new_menu>span>label{font-size: 12px; color: #000000;text-indent: 5px;  }
+.new_menu>span>label:nth-of-type(1){ height: 390px; text-indent: 0px; position: relative;}
+.new_menu>span>label:nth-of-type(2){ height: 35px; line-height: 35px;  font-size: 13px !important;  border-bottom: 1px solid #eeeeee; box-sizing: border-box;}
+.new_menu>span>label:nth-of-type(3){ height: 45px; line-height: 45px;  color: #333333;}
+.new_menu>span>label:nth-of-type(4){ height: 15px; line-height: 15px; color: #999999;}
+.new_menu>span>label:nth-of-type(5){ height: 15px; line-height: 15px;}
+.new_img0{ position: absolute; }
+.new_img1{width: 30px; height: 30px; position: absolute;  bottom: 30px; left: 150px; display: none;}
+.new_img2{width: 30px; height: 30px; position: absolute; bottom: 30px; right: 150px; display: none;}
